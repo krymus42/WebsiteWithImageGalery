@@ -5,16 +5,12 @@ const path = require("path");
 const portfolio = require('./portfolio_route.js');
 const port  = 3000;
 
-app.use(express.static(__dirname + '/images'));
+
 app.use(express.static(__dirname + '/Portfolio'));
 app.use(express.static(__dirname + '/Styles'));
 app.use(express.static(__dirname + '/Scripts'));
 app.get("/",(req,res)=>{
   res.sendFile(path.join(__dirname+"/HTML/index.html"));
-});
-
-app.get("/resume",(req,res)=>{
-  res.sendFile(path.join(__dirname+"/pdf/test.pdf"));
 });
 
 
