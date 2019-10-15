@@ -1,0 +1,154 @@
+*{
+  margin:0;
+  padding: 0;
+  opacity: 1;
+  font-family: 'Playfair Display';
+}
+html,body{
+  background-color:  #18181E;
+  height:100vh;
+  width:100vw;
+text-align: center;
+overflow-x:hidden;
+}
+
+#about{
+  background-color:rgba(24, 24, 30,0.5 );
+  font-size: 24px;
+  display: inline;
+  text-align: center;
+  color: #DEC79B;
+  height: 30%;
+
+}
+#banner
+{
+margin-top:1px;
+  background-size:cover;
+  display:inline-block;
+  background-image: url('/banner_image.png');
+  height:70%;
+  width:100%;
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+text-align: center;
+}
+
+#banner button{
+  float:left;
+}
+
+#menu{
+background-color:rgba(24, 24, 30,0.8 );
+border:none;
+font-size: 2em;
+color:#DEC79B;
+padding: 0px;
+}
+
+#menu:focus {outline:0;}
+
+#dropDownMenu{
+position: absolute;
+}
+
+div.clicked
+{
+
+background-color:rgba(24, 24, 30,0.8 );
+  width: 10vw;
+  height:15vh;
+  display:table;
+}
+
+
+div.clicked a{
+    color: #DEC79B;
+    text-decoration: none;
+}
+
+
+#links {
+  display: inline;
+  text-align: center;
+  width:100%;
+  height:100%;
+}
+
+#technologies
+{
+  margin-top: 15vh;
+  height:30%;
+  width:100%;
+  color: #DEC79B;
+}
+
+#technologies img
+{
+  width:10%;
+  height:30%;
+  margin-left:10%;
+}
+
+
+#portfolio_img
+{
+  width:50%;
+  height:100%;
+}
+
+
+#previous,#next,#current{
+  width:20vw;
+  height:70vh;
+  padding: 0;
+  margin:0;
+  float:left;
+  margin-left: 10%;
+
+
+}
+
+#substract{
+  float:left;
+}
+
+
+
+.images
+{
+
+}
+
+#social img {
+  width:100px;
+  height:100px;
+}
+
+#social {
+  width:100%;
+  clear: both;
+  height:30%;
+  margin-top:10%;
+}
+
+
+
+
+
+body::-webkit-scrollbar,iframe body::-webkit-scrollbar {
+    width: 0.40em;
+}
+
+body::-webkit-scrollbar-track,iframe body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0);
+}
+
+body::-webkit-scrollbar-thumb, iframe body::-webkit-scrollbar-thumb {
+  background-color:#DEC79B;
+  border-radius: 10px;
+width:5px;
+min-height: 10px;
+max-height: 10px;
+}
