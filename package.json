@@ -1,0 +1,24 @@
+{
+  "name": "krymus",
+  "version": "1.0.1",
+  "description": "Moja strona",
+  "main": "index.js",
+  "scripts": {
+    "test": "nope"
+  },
+  "repository": {
+    "type": "git",
+    "url": "none"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "Krystian Wojciechowski",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "fs": "0.0.1-security",
+    "node": "^12.11.1",
+  }
+}
